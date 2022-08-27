@@ -1,3 +1,9 @@
+// The Luhn Algorithm (https://en.wikipedia.org/wiki/Luhn_algorithm) is used to validate various identitifcation numbers,
+// such as credit card numbers and social insurance numbers.
+
+// Instruction
+// Write a function check, which, given a number, returns whether it is valid or not (according to the Luhn Algorithm).
+
 const check = function(number) {
   let numberArray = (String(number).split(''));
 
