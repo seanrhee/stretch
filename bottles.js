@@ -24,7 +24,7 @@ const bottles = function(investment) {
   let emptyBottles = 0;
   let bottleCaps = 0;
 
-  bottleCount = investment / bottleCost;
+  bottleCount = (investment - (investment % bottleCost)) / bottleCost;
 
   emptyBottles = bottleCount;
   bottleCaps = bottleCount;
